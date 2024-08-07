@@ -29,7 +29,7 @@ const CountryList = () => {
     <ListGroup>
       {countries.map((country) => (
         <ListGroup.Item key={country.cca3}>
-          <Link to={`/country/${country.name.common}`}>
+          <Link to={`/countries-app/country/${country.name.common}`}>
             {country.name.common}
           </Link>
         </ListGroup.Item>
